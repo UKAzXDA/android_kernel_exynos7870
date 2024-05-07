@@ -83,7 +83,7 @@ config MULTI_CHARGING
 	Say Y to include support for multi charger ICs
 	
 config BATTERY_AGE_FORECAST
-	bool "battery age forecast"
+	tristate "battery age forecast"
 	default n
 	help
 	Say Y to use enable age forecast algorithm.
@@ -620,4 +620,3 @@ config TYPEB_WATERPROOF_MODEL
 	default n
 	help
 	  Say Y here to enable typeb_waterproof_model
-
