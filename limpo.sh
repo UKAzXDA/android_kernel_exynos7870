@@ -41,7 +41,7 @@ BUILD_DTB() {
 	echo " ================"
     echo " = Building DTB ="
 	echo " ================"
-    ./scripts/dtbTool/dtbTool -o $DTB -d $DTSBOOT/dts-$CODENAME$TREBLE/ -s 2048
+    ./scripts/dtbTool/dtbTool -o $DTB -d $DTSBOOT/dts-$CODENAME$TREBLE/dts/ -s 2048
 }
 
 BOOT_IMG() {
